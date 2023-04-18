@@ -1110,3 +1110,7 @@
         });
     }(jQuery));
 !function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.12.3';document.body.insertBefore(a,document.body.childNodes[0])}}();
+
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
